@@ -250,6 +250,7 @@ export class WebOptions {
     resourceUrl: string;
     responseType: string;
     scope: string;
+    sendCacheControlHeader = false;
     state: string;
     redirectUrl: string;
     logsEnabled: boolean;
